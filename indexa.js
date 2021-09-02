@@ -1,0 +1,26 @@
+$("#clk").click(function(){
+    $("h1").css("color","red");
+});
+
+$("#btnClick").click(function(){
+    $(".animateDiv").animate({
+        left:500,
+        width:98/2,
+        height:98/2,
+        opacity:0.5
+    });
+    $(".animateDiv").animate({
+        top:300
+        });
+        $(".animateDiv").animate({
+            top:300,
+            left:0
+            });
+            $(".animateDiv").animate({
+                top:0,
+                left:0,
+                width:98,
+                height:98,
+                opacity:1
+                });
+});
